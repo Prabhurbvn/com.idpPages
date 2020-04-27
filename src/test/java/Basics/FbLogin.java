@@ -31,6 +31,12 @@ public class FbLogin {
 		System.out.println(driver.getTitle());
 	}
 	
+	@Test
+	public void verifyUrlofthePage()
+	{
+		System.out.println(driver.getCurrentUrl());
+	}
+	
 	@AfterTest
 	public void tearDown()
 	{
